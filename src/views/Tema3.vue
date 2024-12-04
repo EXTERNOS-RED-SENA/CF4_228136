@@ -141,7 +141,7 @@
           div(titulo="Arquitectura de datos robusta:")
             p.mb-0 Los sistemas ETL modernos como Apache Airflow o Databricks aseguran la integración continua de datos actualizados, mientras que las bases de datos columnares como ClickHouse o Apache Pinot optimizan el rendimiento de consultas analíticas. La implementación de cachés inteligentes y agregaciones pre-calculadas permite mantener tiempos de respuesta óptimos incluso con grandes volúmenes de datos.
           div(titulo="Diseño centrado en el usuario: ")
-            p.mb-0 Las mejores prácticas actuales enfatizan #[em layouts] adaptables que funcionan en múltiples dispositivos, desde pantallas de control hasta dispositivos móviles. La implementación de patrones de diseño como el “overview first, zoom and filter, then details on demand” de Shneiderman mejora significativamente la usabilidad.
+            p.mb-0 Las mejores prácticas actuales enfatizan #[em layouts] adaptables que funcionan en múltiples dispositivos, desde pantallas de control hasta dispositivos móviles. La implementación de patrones de diseño como el #[em “overview first, zoom and filter, then details on demand”] de Shneiderman mejora significativamente la usabilidad.
           div(titulo="Capacidades analíticas avanzadas: ")
             p.mb-0 La integración de técnicas de análisis estadístico, #[em machine learning] y procesamiento de señales permite la detección automática de anomalías y la generación de alertas predictivas. Herramientas como Prophet para #[em forecasting] o bibliotecas de detección de anomalías como ADTK enriquecen las capacidades analíticas del #[em dashboard.]
           div(titulo="Colaboración: ")
@@ -168,7 +168,7 @@
           |La estructura narrativa en la visualización de datos requiere una planificación cuidadosa que incluye el establecimiento del contexto, el desarrollo de la tensión narrativa y la revelación progresiva de #[em insights ]. Estas técnicas narrativas deben adaptarse al tipo de datos, la complejidad del análisis y los objetivos de comunicación específicos.
           br
           br
-          |Los elementos estructurales del data #[em storytelling] incluyen la creación de un arco narrativo claro, el uso efectivo de analogías y metáforas visuales, y la integración coherente de elementos cuantitativos y cualitativos. La selección y secuenciación de visualizaciones debe responder a esta estructura narrativa, construyendo gradualmente la comprensión de la audiencia.
+          |Los elementos estructurales del #[em data  storytelling] incluyen la creación de un arco narrativo claro, el uso efectivo de analogías y metáforas visuales, y la integración coherente de elementos cuantitativos y cualitativos. La selección y secuenciación de visualizaciones debe responder a esta estructura narrativa, construyendo gradualmente la comprensión de la audiencia.
       .col-lg-4.col-7: img(src='@/assets/curso/temas/74.svg', alt='')
     .tarjeta.p-4.mb-5(style="background-color: #f3f0ea ")
       p.mb-0 La implementación de técnicas de #[em storytelling] visual requiere considerar aspectos como el ritmo de la presentación, los puntos de énfasis visual y los momentos de revelación de información clave. La integración efectiva de estos elementos crea una experiencia narrativa que mantiene el interés de la audiencia mientras comunica información compleja de manera accesible. 

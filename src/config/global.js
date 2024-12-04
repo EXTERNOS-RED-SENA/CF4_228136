@@ -3,7 +3,7 @@ export default {
     componenteFormativo:
       'Exploración, validación y visualización de datos para la toma de decisiones',
     descripcionCurso:
-      'Este componente aborda los fundamentos y técnicas del análisis exploratorio y la visualización de datos, enfocado en la toma de decisiones efectiva. Examina métodos estadísticos y técnicas de visualización avanzada y principios de comunicación de datos, integrando aspectos teóricos con aplicaciones prácticas mediante herramientas modernas. Diseñado para desarrollar competencias en la exploración sistemática y su traducción en insights accionables.',
+      'Este componente aborda los fundamentos y técnicas del análisis exploratorio y la visualización de datos, enfocado en la toma de decisiones efectivas. Examina métodos estadísticos y técnicas de visualización avanzada y principios de comunicación de datos, integrando aspectos teóricos con aplicaciones prácticas mediante herramientas modernas. Diseñado para desarrollar competencias en la exploración sistemática y su traducción en insights accionables.',
     imagenBannerPrincipal: require('@/assets/curso/portada/banner-princiapal.png'),
     fondoBannerPrincipal: require('@/assets/curso/portada/fondo-banner-principal.png'),
     imagenesDecorativasBanner: [
@@ -375,10 +375,10 @@ export default {
         'Yau, N. (2013). Data Points: Visualization That Means Something. John Wiley & Sons.',
       link: '',
     },
-    {
-      referencia:
-        'Zhao, K., & Zhang, B. (2024). Modern Statistical Graphics: Principles, Tools, and Applications. Chapman and Hall/CRC.',
-      link: 'https://doi.org/10.1201/9781003288776',
-    },
+    // {
+    //   referencia:
+    //     'Zhao, K., & Zhang, B. (2024). Modern Statistical Graphics: Principles, Tools, and Applications. Chapman and Hall/CRC.',
+    //   link: 'https://doi.org/10.1201/9781003288776',
+    // },
   ],
 }

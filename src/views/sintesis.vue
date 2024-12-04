@@ -16,14 +16,14 @@
     .row.justify-content-center
       .col-lg-10.mb-5
         figure
-          img(src="@/assets/curso/temas/sintesis.svg", alt="alt")
+          img(src="@/assets/curso/temas/sintesis.svg", alt="La Figura 3 se denomina «Síntesis temática del componente», en ella se presentan los principales temas abordados en la exploración, validación y visualización de datos para la toma de decisiones, tales como los fundamentos, el análisis estadístico, la visualización y el soporte en la toma de decisiones, junto con algunos subtemas que forman parte integral de cada uno de ellos.")
+          figcaption Fuente: OIT, 2024
       .col-auto
         a.anexo.mb-5(:href="obtenerLink('/downloads/Sintesis.pdf')" target="_blank")
           .anexo__icono
             img(src="@/assets/template/icono-pdf.svg")
           .anexo__texto
             p Anexo. Síntesis
-
 </template>
 
 <script>

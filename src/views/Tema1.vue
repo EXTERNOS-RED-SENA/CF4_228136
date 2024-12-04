@@ -15,8 +15,8 @@
           p.mb-0 La preparación y limpieza de datos constituye una fase decisiva y fundamental en cualquier proceso de análisis exploratorio de datos. En este capítulo se introducen los conceptos esenciales relacionados con la exploración de datos, comenzando desde la comprensión de los procesos de limpieza y transformación, pasando por su importancia crítica en la toma de decisiones basadas en datos, hasta llegar a los aspectos técnicos relacionados con la preparación del entorno de programación y el uso de bibliotecas especializadas. La comprensión de estos conceptos fundamentales, junto con el dominio de las herramientas y técnicas programáticas asociadas, resulta esencial para desarrollar procesos de análisis exploratorio, efectivos y confiables, que puedan traducirse en insights accionables para la toma de decisiones empresariales.
     Separador
     #t_1_1.titulo-segundo.color-acento-contenido(data-aos='fade-right')
-      h2 1.1	Introducción a la limpieza y transformación de datos
-    p.mb-5(data-aos='fade-right') La limpieza y transformación de datos constituye una fase fundamental en el proceso de análisis de datos, representando frecuentemente hasta el 80% del tiempo invertido en proyectos analíticos. Esta etapa crítica establece los cimientos para todo análisis posterior, asegurando la calidad y confiabilidad de los resultados. La preparación adecuada de los datos no solo mejora la precisión de los análisis subsecuentes, sino que también facilita la interpretación y comunicación de los hallazgos.
+      h2 1.1	Introducción a la l impieza y transformación de datos
+    p.mb-5(data-aos='fade-right') La limpieza y transformación de datos constituye una fase fundamental en el proceso de análisis de datos, representando frecuentemente hasta el 80 % del tiempo invertido en proyectos analíticos. Esta etapa crítica establece los cimientos para todo análisis posterior, asegurando la calidad y confiabilidad de los resultados. La preparación adecuada de los datos no solo mejora la precisión de los análisis subsecuentes, sino que también facilita la interpretación y comunicación de los hallazgos.
       br
       br
       |Los datos en bruto suelen presentar diversas anomalías que requieren un tratamiento específico y metódico. Los tipos más comunes de irregularidades que encontramos en los conjuntos de datos incluyen:
@@ -57,7 +57,7 @@
       h2 1.2	Importancia en el análisis de datos
     .row.justify-content-center.mb-5
       .col-lg-8.mb-lg-0.mb-3
-        p.mb-0 La calidad y preparación de los datos constituye un factor crítico en la cadena de valor del análisis de datos, puesto que impacta directamente en la validez y confiabilidad de las decisiones empresariales. La comprensión de esta relación fundamental entre la calidad de los datos y la efectividad de las decisiones resulta esencial en el contexto actual de la analítica avanzada.
+        p.mb-0 La calidad y preparación de los datos constituyen un factor crítico en la cadena de valor del análisis de datos, puesto que impacta directamente en la validez y confiabilidad de las decisiones empresariales. La comprensión de esta relación fundamental entre la calidad de los datos y la efectividad de las decisiones resulta esencial en el contexto actual de la analítica avanzada.
           br
           br
           |El impacto de la calidad de los datos en la toma de decisiones se manifiesta en múltiples dimensiones, desde los costos operativos directos hasta las implicaciones estratégicas a largo plazo. La identificación y cuantificación de estos impactos permite establecer marcos de referencia para la evaluación de la calidad de datos y su aptitud para diferentes contextos de decisión.
@@ -88,7 +88,7 @@
     p.mb-5(data-aos='fade-right') La gestión efectiva de recursos computacionales desempeña un papel destacado en el análisis de datos moderno. Esto incluye la configuración apropiada de memoria, capacidad de procesamiento y almacenamiento, considerando siempre los requerimientos específicos del proyecto en cuestión. Por ejemplo, el análisis de grandes conjuntos de datos puede requerir configuraciones especiales de memoria o la implementación de técnicas de procesamiento por lotes.
       br
       br
-      |La integración con servicios en la nube ha transformado significativamente los entornos de análisis de datos. Plataformas como Google Colab, Azure Notebooks o Amazon SageMaker proporcionan entornos preconfigurados con acceso a recursos computacionales escalables, lo cual facilita la colaboración y el despliegue de soluciones analíticas. Estas plataformas permiten la transición fluida entre desarrollo local y computación en la nube, adaptándose a las necesidades cambiantes de los proyectos.
+      |La integración con servicios en la nube ha transformado significativamente los entornos de análisis de datos. Plataformas como Google Colab, Azure Notebooks o Amazon SageMaker proporcionan entornos preconfigurados con acceso a recursos computacionales escalables, lo cual facilita la colaboración y el despliegue de soluciones analíticas. Estas plataformas permiten la transición fluida entre desarrollo, adaptándose a las necesidades cambiantes de los proyectos.
 
     p(data-aos='fade-right') Preparar un entorno de programación efectivo no es solo una cuestión técnica, sino una inversión estratégica para las empresas. Los problemas más frecuentes, como los conflictos de dependencias o la falta de escalabilidad, pueden resolverse mediante soluciones tecnológicas específicas y la capacitación del personal. Al implementar estas estrategias, las organizaciones no solo optimizan sus procesos, sino que también se posicionan como líderes innovadores en un mercado altamente competitivo.
     Separador
@@ -104,13 +104,13 @@
           ul.lista-ul--color
             li.d-flex
               i.fas.fa-check
-              p.mb-0 #[b Manipulación y procesamiento fundamental:] incluye bibliotecas base como Pandas para estructuras de datos tabulares, que permiten operaciones eficientes de filtrado, agregación y transformación. NumPy proporciona el fundamento para computación numérica, mientras que Polars reluce como una alternativa moderna optimizada para rendimiento en grandes conjuntos de datos.
+              p.mb-0 #[b Manipulación y procesamiento fundamental:] incluye bibliotecas base como Pandas para estructuras de datos tabulares, que permiten operaciones eficientes de filtrado, agregación y transformación. #[em NumPy] proporciona el fundamento para computación numérica, mientras que Polars reluce como una alternativa moderna optimizada para rendimiento en grandes conjuntos de datos.
             li.d-flex
               i.fas.fa-check
-              p.mb-0 #[b Visualización y exploración:] comprende desde bibliotecas básicas como Matplotlib hasta frameworks más especializados como Seaborn para visualización estadística, plotly para gráficos interactivos, y Altair para visualizaciones declarativas. Cada biblioteca ofrece ventajas específicas para diferentes contextos de visualización.
+              p.mb-0 #[b Visualización y exploración:] comprende desde bibliotecas básicas como #[em Matplotlib] hasta #[em frameworks] más especializados como Seaborn para visualización estadística, #[em plotly] para gráficos interactivos, y #[em Altair] para visualizaciones declarativas. Cada biblioteca ofrece ventajas específicas para diferentes contextos de visualización.
             li.d-flex
               i.fas.fa-check
-              p.mb-0 #[b Análisis estadístico y modelado:] agrupa bibliotecas como Statsmodels para análisis estadístico tradicional, Scikit-learn para machine learning, y Scipy para computación científica avanzada, que en su conjunto proporcionan implementaciones optimizadas de algoritmos estadísticos y técnicas de modelado.
+              p.mb-0 #[b Análisis estadístico y modelado:] agrupa bibliotecas como #[em Statsmodels] para análisis estadístico tradicional, #[em Scikit-learn] para #[em machine learning], y #[em Scipy] para computación científica avanzada, que en su conjunto proporcionan implementaciones optimizadas de algoritmos estadísticos y técnicas de modelado.
       .col-lg-5.col-7: img(src='@/assets/curso/temas/25.png', alt='')
     .row.justify-content-center.mb-5
       .col-lg-4.col-7.mb-lg-0.mb-3: img(src='@/assets/curso/temas/26.png', alt='')
@@ -118,15 +118,15 @@
         .row.justify-content-center.align-items-center.mb-4
           .col-1.d.lg-block.d-none: img(src='@/assets/curso/temas/27.svg', alt='')
           .col-lg-11
-            p.mb-0 La integración efectiva de múltiples bibliotecas permite crear flujos de trabajo potentes y flexibles. Por ejemplo, un análisis típico podría comenzar con la carga y limpieza de datos usando Pandas, continuar con transformaciones numéricas mediante NumPy, aplicar análisis estadísticos con Statsmodels, y finalizar con visualizaciones interactivas usando Plotly.
+            p.mb-0 La integración efectiva de múltiples bibliotecas permite crear flujos de trabajo potentes y flexibles. Por ejemplo, un análisis típico podría comenzar con la carga y limpieza de datos usando #[em Pandas], continuar con transformaciones numéricas mediante #[em NumPy], aplicar análisis estadísticos con #[em Statsmodels], y finalizar con visualizaciones interactivas usando #[em Plotly.]
         p.mb-3 La optimización del rendimiento en el uso de bibliotecas especializadas requiere un entendimiento profundo de sus características y limitaciones. Esto incluye conocer las estructuras de datos más eficientes para diferentes operaciones, comprender los #[em trade-offs] entre memoria y velocidad, y aplicar técnicas de vectorización cuando sea posible.
     .row.justify-content-center.mb-5
       .col-lg-5.mb-lg-0.mb-3
         .tarjeta.p-4(style="background-color: #f3f0ea ")
-          p.mb-0 El desarrollo continuo del ecosistema de bibliotecas introduce regularmente nuevas herramientas y mejoras. Por ejemplo, bibliotecas como Vaex y Dask están redefiniendo el procesamiento de grandes conjuntos de datos, mientras que Pydantic y pandera mejoran la validación y verificación de datos. Mantenerse actualizado con estas evoluciones es esencial para aprovechar las mejoras en eficiencia y funcionalidad.
+          p.mb-0 El desarrollo continuo del ecosistema de bibliotecas introduce regularmente nuevas herramientas y mejoras. Por ejemplo, bibliotecas como #[em Vaex] y #[em Dask] están redefiniendo el procesamiento de grandes conjuntos de datos, mientras que #[em Pydantic] y pandera mejoran la validación y verificación de datos. Mantenerse actualizado con estas evoluciones es esencial para aprovechar las mejoras en eficiencia y funcionalidad.
       .col-lg-3.col-7.mb-lg-0.mb-3: img(src='@/assets/curso/temas/28.png', alt='')
       .col-lg-4
-        p.mb-0 La documentación y reproducibilidad del análisis requiere un manejo cuidadoso de las versiones de las bibliotecas utilizadas. Las herramientas de gestión de dependencias como Poetry o Pip-tools facilitan este proceso, lo cual asegura la consistencia entre diferentes entornos y la reproducibilidad de los análisis a largo plazo.
+        p.mb-0 La documentación y reproducibilidad del análisis requiere un manejo cuidadoso de las versiones de las bibliotecas utilizadas. Las herramientas de gestión de dependencias como #[em Poetry] o #[em Pip-tools] facilitan este proceso, lo cual asegura la consistencia entre diferentes entornos y la reproducibilidad de los análisis a largo plazo.
     .row.justify-content-center.mb-5
       .col-lg-6
         .titulo-sexto.color-acento-contenido(data-aos='fade-right')
