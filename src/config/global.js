@@ -258,7 +258,7 @@ export default {
         'Panel visual interactivo que presenta información clave y métricas de manera consolidada y organizada. Facilita el monitoreo y toma de decisiones al proporcionar una vista integral del rendimiento y estado de diversos indicadores críticos.',
     },
     {
-      termino: '<em>Data Storytelling</em>',
+      termino: '<em>Data storytelling</em>',
       significado:
         'Práctica que combina visualización de datos, narrativa y análisis para construir historias significativas basadas en datos. Implica la selección de elementos visuales y la construcción de una narrativa coherente para presentar <em>insights</em> efectivamente.',
     },
@@ -273,7 +273,7 @@ export default {
         'Comprensión profunda derivada del análisis de datos que revela patrones, tendencias o relaciones no evidentes a primera vista. Proporciona valor accionable para la toma de decisiones, combinando hallazgos cuantitativos con contexto empresarial.',
     },
     {
-      termino: '<em>KPI (Key Performance Indicator)</em>',
+      termino: 'KPI (Key Performance Indicator)',
       significado:
         'Métrica cuantificable crítica utilizada para evaluar el éxito en el cumplimiento de objetivos específicos. Proporciona una base objetiva para la evaluación del rendimiento y la toma de decisiones.',
     },
@@ -288,7 +288,7 @@ export default {
         'Secuencia estructurada de procesos de datos donde la salida de cada etapa sirve como entrada para la siguiente. Representa un flujo de trabajo automatizado que incluye limpieza, transformación y análisis de datos.',
     },
     {
-      termino: '<em>PCA (Principal Component Analysis)</em>',
+      termino: 'PCA (Principal Component Analysis)',
       significado:
         'Técnica de reducción de dimensionalidad que transforma variables correlacionadas en un conjunto menor de variables no correlacionadas. Fundamental para simplificar datos complejos manteniendo la información relevante.',
     },
@@ -316,8 +316,9 @@ export default {
   referencias: [
     {
       referencia:
-        'Cairo, A. (2016). The Truthful Art: Data, Charts, and Maps for Communication. New Riders. https://doi.org/10.1007/978-1-4842-2486-6',
-      link: '',
+        'Cairo, A. (2016). The Truthful Art: Data, Charts, and Maps for Communication. New Riders. ',
+      link:
+        'https://books.google.com.co/books?id=8dKKCwAAQBAJ&printsec=frontcover&source=gbs_ge_summary_r&cad=0#v=onepage&q&f=false',
     },
     {
       referencia:

@@ -26,8 +26,8 @@
         AcordionA.mb-5(tipo="a" clase-tarjeta="tarjeta tarjeta--azul")
           div(titulo="Valores faltantes o ausentes:")
             p.mb-0 Representan una de las anomalías más frecuentes y desafiantes en el análisis de datos. Pueden aparecer por fallos en los sistemas de recolección, errores humanos durante la entrada de datos, problemas de integración entre sistemas, o simplemente porque la información no estaba disponible en el momento del registro. Su tratamiento requiere un análisis cuidadoso del patrón de ausencia y su impacto potencial en el análisis, considerando siempre el contexto específico del problema y las implicaciones de diferentes estrategias de imputación.
-          div(titulo="Valores atípicos o outliers: ")
-            p.mb-0 Constituyen observaciones que se desvían significativamente del comportamiento general de los datos. Su identificación y tratamiento representa un equilibrio delicado entre mantener la integridad de los datos y eliminar información potencialmente errónea. Algunos outliers pueden ser indicadores valiosos de eventos excepcionales o tendencias emergentes, mientras que otros pueden ser simplemente errores que necesitan corrección o eliminación.
+          div(titulo="Valores atípicos o <em>outliers</em>: ")
+            p.mb-0 Constituyen observaciones que se desvían significativamente del comportamiento general de los datos. Su identificación y tratamiento representa un equilibrio delicado entre mantener la integridad de los datos y eliminar información potencialmente errónea. Algunos #[em outliers] pueden ser indicadores valiosos de eventos excepcionales o tendencias emergentes, mientras que otros pueden ser simplemente errores que necesitan corrección o eliminación.
           div(titulo="Inconsistencias y errores de formato: ")
             p.mb-0 Abarcan desde simples variaciones en la escritura hasta problemas más complejos de estandarización. Pueden manifestarse como diferentes representaciones de la misma información, unidades de medida inconsistentes, o estructuras de datos incompatibles. Su corrección requiere un proceso sistemático de estandarización y validación que asegure la coherencia en todo el conjunto de datos.
     p.mb-5(data-aos='fade-right') Las transformaciones de datos constituyen otro aspecto esencial del proceso de preparación, y pueden clasificarse en varias categorías fundamentales:
@@ -39,10 +39,10 @@
           div(titulo="Transformaciones estructurales:")
             p.mb-0 Abarcan la reorganización de datos para facilitar su análisis, incluyendo la pivotación de tablas, la agregación de registros a diferentes niveles de granularidad, y la creación de nuevas variables derivadas que capturen relaciones o patrones importantes en los datos. Estas transformaciones deben diseñarse considerando tanto los requisitos técnicos del análisis como las necesidades de interpretación de los usuarios finales.
           div(titulo="Codificación y categorización:")
-            p.mb-0 implican la conversión de variables cualitativas en formatos adecuados para el análisis cuantitativo, manteniendo la integridad y significado de la información original. Esto puede incluir la creación de variables dummy, la aplicación de esquemas de codificación ordinal, o la implementación de técnicas más avanzadas de embedding para variables categóricas de alta cardinalidad.
+            p.mb-0 Implican la conversión de variables cualitativas en formatos adecuados para el análisis cuantitativo, manteniendo la integridad y significado de la información original. Esto puede incluir la creación de variables #[em dummy], la aplicación de esquemas de codificación ordinal, o la implementación de técnicas más avanzadas de #[em embedding] para variables categóricas de alta cardinalidad.
       .col-lg-4.col-7: img(src='@/assets/curso/temas/5.png', alt='')
 
-    p.mb-5(data-aos='fade-right') La detección de anomalías requiere una combinación de métodos estadísticos y visuales. Los métodos estadísticos dan una base objetiva para la identificación de valores inusuales, mientras que las técnicas visuales permiten una comprensión intuitiva de la estructura de los datos y facilitan la comunicación de hallazgos a stakeholders no técnicos. La integración efectiva de ambos enfoques permite una identificación más robusta de patrones y anomalías significativas.
+    p.mb-5(data-aos='fade-right') La detección de anomalías requiere una combinación de métodos estadísticos y visuales. Los métodos estadísticos dan una base objetiva para la identificación de valores inusuales, mientras que las técnicas visuales permiten una comprensión intuitiva de la estructura de los datos y facilitan la comunicación de hallazgos a #[em stakeholders] no técnicos. La integración efectiva de ambos enfoques permite una identificación más robusta de patrones y anomalías significativas.
     .row.justify-content-center.mb-5
       .col-lg-5.col-7.mb-lg-0.mb-3: img(src='@/assets/curso/temas/16.png', alt='')
       .col-lg-7
@@ -119,7 +119,7 @@
           .col-1.d.lg-block.d-none: img(src='@/assets/curso/temas/27.svg', alt='')
           .col-lg-11
             p.mb-0 La integración efectiva de múltiples bibliotecas permite crear flujos de trabajo potentes y flexibles. Por ejemplo, un análisis típico podría comenzar con la carga y limpieza de datos usando Pandas, continuar con transformaciones numéricas mediante NumPy, aplicar análisis estadísticos con Statsmodels, y finalizar con visualizaciones interactivas usando Plotly.
-        p.mb-3 La optimización del rendimiento en el uso de bibliotecas especializadas requiere un entendimiento profundo de sus características y limitaciones. Esto incluye conocer las estructuras de datos más eficientes para diferentes operaciones, comprender los trade-offs entre memoria y velocidad, y aplicar técnicas de vectorización cuando sea posible.
+        p.mb-3 La optimización del rendimiento en el uso de bibliotecas especializadas requiere un entendimiento profundo de sus características y limitaciones. Esto incluye conocer las estructuras de datos más eficientes para diferentes operaciones, comprender los #[em trade-offs] entre memoria y velocidad, y aplicar técnicas de vectorización cuando sea posible.
     .row.justify-content-center.mb-5
       .col-lg-5.mb-lg-0.mb-3
         .tarjeta.p-4(style="background-color: #f3f0ea ")

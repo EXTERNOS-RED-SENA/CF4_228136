@@ -90,7 +90,7 @@
               p.mb-0 #[b Correlación de Pearson:] diseñada para evaluar relaciones lineales entre variables continuas, esta métrica proporciona tanto la dirección como la fuerza de la asociación. Su interpretación debe considerar aspectos como la presencia de outliers, la linealidad de la relación y la normalidad de las distribuciones. Valores cercanos a +1 o -1 indican correlaciones fuertes, mientras que valores cercanos a 0 sugieren ausencia de relación lineal.
             li.d-flex
               i.fas.fa-check
-              p.mb-0 #[b Correlación de Spearman:] ofrece una alternativa no paramétrica que evalúa relaciones monótonas, siendo menos sensible a outliers y no requiriendo supuestos sobre la distribución de los datos. Resulta particularmente útil cuando las relaciones no son estrictamente lineales o cuando trabajamos con variables ordinales.
+              p.mb-0 #[b Correlación de Spearman:] ofrece una alternativa no paramétrica que evalúa relaciones monótonas, siendo menos sensible a #[em outliers] y no requiriendo supuestos sobre la distribución de los datos. Resulta particularmente útil cuando las relaciones no son estrictamente lineales o cuando trabajamos con variables ordinales.
             li.d-flex
               i.fas.fa-check
               p.mb-0 #[b Correlación de Kendall:] proporciona una medida robusta de asociación basada en concordancias, especialmente útil para muestras pequeñas o cuando existen empates en los rangos. Su interpretación es similar a otras correlaciones, pero con diferentes propiedades estadísticas que la hacen preferible en ciertos contextos.
@@ -173,7 +173,7 @@
               .d-flex.align-items-center
                 p.mb-0 El análisis factorial, por su parte, profundiza en la estructura latente de los datos, buscando identificar factores no observables que explican los patrones de correlación entre las variables observadas. Esta técnica resulta particularmente valiosa en campos como la psicometría y las ciencias sociales, donde los constructos de interés frecuentemente no pueden medirse directamente, sino que deben inferirse a partir de múltiples indicadores observables.
       .col-lg-3.col-6L: img(src='@/assets/curso/temas/51.png', alt='')
-    p.mb-5(data-aos='fade-right') Los métodos de clustering o agrupamiento representan otro pilar fundamental del análisis multivariado, permitiendo la identificación de grupos naturales en los datos basados en múltiples características simultáneamente. Estos métodos van más allá de la simple segmentación basada en criterios únicos, incorporando la complejidad total de las relaciones multivariadas para identificar estructuras de agrupamiento que reflejan patrones significativos en los datos.
+    p.mb-5(data-aos='fade-right') Los métodos de #[em clustering] o agrupamiento representan otro pilar fundamental del análisis multivariado, permitiendo la identificación de grupos naturales en los datos basados en múltiples características simultáneamente. Estos métodos van más allá de la simple segmentación basada en criterios únicos, incorporando la complejidad total de las relaciones multivariadas para identificar estructuras de agrupamiento que reflejan patrones significativos en los datos.
     .row.justify-content-center.mb-5
       .col-lg-4.col-7.mb-lg-0.mb-3: img(src='@/assets/curso/temas/52.png', alt='')
       .col-lg-8
@@ -214,7 +214,7 @@
               tr
                 td t-SNE (t-Distributed Stochastic Neighbor Embedding)
                 td Preserva la estructura local de los datos mediante la conservación de probabilidades de similitud entre pares de puntos. 
-                td Excelente para análisis exploratorio de alta dimensionalidad, con énfasis la preservación de estructuras locales y clusters
+                td Excelente para análisis exploratorio de alta dimensionalidad, con énfasis la preservación de estructuras locales y #[em clusters]
                 td No preserva distancias globales y computacionalmente intensivo para grandes conjuntos de datos.
               tr
                 td UMAP (Uniform Manifold Approximation and Projection)
@@ -227,7 +227,7 @@
                 td Particularmente efectivo para problemas de clasificación donde se busca maximizar la separabilidad entre clases
                 td Requiere datos etiquetados y asume distribuciones normales por clase
               tr
-                td Autoencoder
+                td.fst-italic Autoencoder
                 td Red neuronal que aprende una representación comprimida de los datos a través de una arquitectura de cuello de botella
                 td Capaz de capturar patrones no lineales complejos y adaptarse a diversos tipos de datos
                 td Requiere grandes cantidades de datos para el entrenamiento y es computacionalmente intensivo
@@ -236,7 +236,7 @@
                 td Descompone la matriz de datos en dos matrices no negativas, proporcionando una representación aditiva de los datos
                 td Proporciona descomposiciones naturalmente interpretables para datos no negativos. Aplicado a procesamiento de texto y análisis de señales
                 td Aplicable solo a datos no negativos y puede converger a mínimos locales
-    p.mb-5(data-aos='fade-right') Las técnicas de reducción de dimensionalidad representan un conjunto fundamental de herramientas en el análisis moderno de datos, que se constituyen como soluciones para uno de los desafíos más significativos en la era del big data: la complejidad dimensional. Como se observa en la tabla anterior, cada técnica aborda este desafío desde una perspectiva única, proporcionando diferentes compromisos entre la preservación de la estructura de los datos, la interpretabilidad y la eficiencia computacional. La evolución de estas técnicas refleja la progresión desde enfoques lineales clásicos como PCA hasta métodos más sofisticados como UMAP y autoencoders, que pueden capturar relaciones no lineales complejas en los datos.
+    p.mb-5(data-aos='fade-right') Las técnicas de reducción de dimensionalidad representan un conjunto fundamental de herramientas en el análisis moderno de datos, que se constituyen como soluciones para uno de los desafíos más significativos en la era del big data: la complejidad dimensional. Como se observa en la tabla anterior, cada técnica aborda este desafío desde una perspectiva única, proporcionando diferentes compromisos entre la preservación de la estructura de los datos, la interpretabilidad y la eficiencia computacional. La evolución de estas técnicas refleja la progresión desde enfoques lineales clásicos como PCA hasta métodos más sofisticados como UMAP y #[em autoencoders], que pueden capturar relaciones no lineales complejas en los datos.
     .row.justify-content-center.mb-5
       .col-lg-9.mb-lg-0.mb-3
         p.mb-4 La selección de la técnica más apropiada para un caso específico requiere una comprensión profunda no solo de los principios matemáticos subyacentes, sino también del contexto del problema y las características particulares de los datos. Por ejemplo, mientras que PCA puede ser la elección óptima para datos con fuertes correlaciones lineales y cuando la interpretabilidad es determinante, técnicas como t-SNE o UMAP pueden ser más adecuadas cuando el objetivo principal es la visualización o el descubrimiento de clusters. Los autoencoders, por su parte, han ganado prominencia en escenarios donde la complejidad de los patrones requiere la capacidad de aprendizaje profundo, a pesar del costo en términos de interpretabilidad y recursos computacionales.

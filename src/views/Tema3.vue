@@ -85,11 +85,11 @@
       .col-lg-7.mb-lg-0.mb-3
         AcordionA.mb-5(tipo="a" clase-tarjeta="tarjeta tarjeta--azul")
           div(titulo="Interacciones básicas de exploración: ")
-            p.mb-0  la capacidad de hacer zoom y pan permite a los usuarios examinar detalles específicos sin perder el contexto general, especialmente estratégico en visualizaciones de grandes conjuntos de datos. El filtrado dinámico facilita la exploración de subconjuntos específicos de datos, permitiendo a los usuarios construir y probar hipótesis sobre la marcha. Los tooltips informativos y etiquetas dinámicas proporcionan contexto adicional bajo demanda, enriqueciendo la experiencia de exploración sin sobrecargar la visualización principal.
+            p.mb-0  La capacidad de hacer #[em zoom] y #[em pan] permite a los usuarios examinar detalles específicos sin perder el contexto general, especialmente estratégico en visualizaciones de grandes conjuntos de datos. El filtrado dinámico facilita la exploración de subconjuntos específicos de datos, permitiendo a los usuarios construir y probar hipótesis sobre la marcha. Los tooltips informativos y etiquetas dinámicas proporcionan contexto adicional bajo demanda, enriqueciendo la experiencia de exploración sin sobrecargar la visualización principal.
           div(titulo="Manipulación avanzada de datos: ")
-            p.mb-0 las capacidades de ordenamiento dinámico permiten a los usuarios reorganizar la información según diferentes criterios, revelando patrones que podrían no ser evidentes en una organización estática. La agregación y desagregación interactiva facilita la exploración de datos a diferentes niveles de granularidad, permitiendo tanto visiones generales como análisis detallados. La selección y resaltado de elementos específicos ayuda a los usuarios a mantener el foco en áreas de interés mientras mantienen la consciencia del contexto general.
+            p.mb-0 Las capacidades de ordenamiento dinámico permiten a los usuarios reorganizar la información según diferentes criterios, revelando patrones que podrían no ser evidentes en una organización estática. La agregación y desagregación interactiva facilita la exploración de datos a diferentes niveles de granularidad, permitiendo tanto visiones generales como análisis detallados. La selección y resaltado de elementos específicos ayuda a los usuarios a mantener el foco en áreas de interés mientras mantienen la consciencia del contexto general.
           div(titulo="Enlace y coordinación entre vistas:")
-            p.mb-0 la actualización sincronizada de múltiples visualizaciones relacionadas permite explorar diferentes aspectos de los mismos datos simultáneamente. Los filtros cruzados entre diferentes vistas facilitan la comprensión de relaciones complejas entre variables. La persistencia de selecciones a través de diferentes visualizaciones ayuda a mantener la coherencia en la exploración de datos multidimensionales.
+            p.mb-0 La actualización sincronizada de múltiples visualizaciones relacionadas permite explorar diferentes aspectos de los mismos datos simultáneamente. Los filtros cruzados entre diferentes vistas facilitan la comprensión de relaciones complejas entre variables. La persistencia de selecciones a través de diferentes visualizaciones ayuda a mantener la coherencia en la exploración de datos multidimensionales.
       .col-lg-5.col-7: img(src='@/assets/curso/temas/62.png', alt='')
     p.mb-5(data-aos='fade-right') El diseño efectivo de interactividad requiere una comprensión profunda de los principios de interacción humano-computadora. La respuesta inmediata a las acciones del usuario resulta clave para mantener el flujo de análisis, mientras que las transiciones suaves entre estados ayudan a mantener la continuidad visual y cognitiva. La consistencia en las interacciones a través de diferentes componentes de la visualización reduce la carga cognitiva y facilita el aprendizaje del sistema.
     .row.justify-content-center.mb-4
@@ -107,20 +107,20 @@
           .row.justify-content-center.mb-3
             .col-lg-6: img(src='@/assets/curso/temas/64.svg', alt='')
           h5.mb-4 Análisis exploratorio colaborativo: 
-          p.mb-0 los sistemas modernos permiten múltiples usuarios interactuar simultáneamente con las mismas visualizaciones, facilitando la colaboración en tiempo real. La capacidad de guardar y compartir estados específicos de exploración permite la documentación efectiva de hallazgos y la comunicación asíncrona. La integración con herramientas de anotación y comentarios enriquece el proceso colaborativo, permitiendo la construcción colectiva de conocimiento.
+          p.mb-0 Los sistemas modernos permiten múltiples usuarios interactuar simultáneamente con las mismas visualizaciones, facilitando la colaboración en tiempo real. La capacidad de guardar y compartir estados específicos de exploración permite la documentación efectiva de hallazgos y la comunicación asíncrona. La integración con herramientas de anotación y comentarios enriquece el proceso colaborativo, permitiendo la construcción colectiva de conocimiento.
       .col-lg-5.mb-lg-0.mb-3
         .tarjeta.p-4(style="background-color: #f3f0ea ").h-100
           .row.justify-content-center.mb-3
             .col-lg-6: img(src='@/assets/curso/temas/65.svg', alt='')
           h5.mb-4 Narración de datos interactiva: 
-          p.mb-0 la combinación de interactividad con técnicas de #[em storytelling] permite crear presentaciones dinámicas que se adaptan a diferentes audiencias y niveles de interés. La capacidad de desviar de un camino narrativo predefinido para explorar detalles específicos enriquece la experiencia de aprendizaje mientras mantiene la coherencia narrativa general.
+          p.mb-0 La combinación de interactividad con técnicas de #[em storytelling] permite crear presentaciones dinámicas que se adaptan a diferentes audiencias y niveles de interés. La capacidad de desviar de un camino narrativo predefinido para explorar detalles específicos enriquece la experiencia de aprendizaje mientras mantiene la coherencia narrativa general.
     .row.justify-content-center.mb-5
       .col-lg-8.mb-lg-0.mb-3
         .p-4(style="background-color: #eaf5e9 ")
           p.mb-0 La integración de visualizaciones interactivas en flujos de trabajo analíticos más amplios extiende su utilidad más allá de la exploración inicial de datos. La capacidad de exportar hallazgos, guardar estados de análisis y conectar con otras herramientas analíticas crea un ecosistema cohesivo que soporta el ciclo completo de análisis de datos.
             br
             br
-            |La evolución continua de las capacidades interactivas, impulsada por avances en tecnología web y procesamiento de datos, promete expandir aún más las posibilidades de exploración y análisis visual. La emergencia de nuevas técnicas de interacción y visualización seguirá enriqueciendo nuestra capacidad para descubrir y comunicar insights significativos en datos complejos.
+            |La evolución continua de las capacidades interactivas, impulsada por avances en tecnología web y procesamiento de datos, promete expandir aún más las posibilidades de exploración y análisis visual. La emergencia de nuevas técnicas de interacción y visualización seguirá enriqueciendo nuestra capacidad para descubrir y comunicar #[em insights ] significativos en datos complejos.
       .col-lg-4.col-7: img(src='@/assets/curso/temas/66.png', alt='')
     Separador
     #t_3_3.titulo-segundo.color-acento-contenido(data-aos='fade-right')
@@ -129,34 +129,34 @@
       .col-lg-9.mb-lg-0.mb-3
         p.mb-4 Los #[em dashboards] modernos representan una evolución significativa en la visualización de datos empresariales, transformando la manera en que las organizaciones monitorean, analizan y responden a información crítica del negocio. Herramientas como Tableau, Power BI y Looker han establecido nuevos estándares en la creación de interfaces analíticas, permitiendo la integración de datos en tiempo real con visualizaciones interactivas sofisticadas.
         .p-4(style="background-color: #e2f4f9")
-          p.mb-0 La arquitectura efectiva de dashboards contemporáneos se apoya en frameworks robustos como React para aplicaciones web, D3.js para visualizaciones personalizadas, y bibliotecas especializadas como Apache ECharts para gráficos interactivos. Estas tecnologías permiten crear experiencias altamente responsivas que mantienen su rendimiento incluso con grandes volúmenes de datos y múltiples usuarios concurrentes.
+          p.mb-0 La arquitectura efectiva de #[em dashboards] contemporáneos se apoya en #[em frameworks] robustos como React para aplicaciones web, D3.js para visualizaciones personalizadas, y bibliotecas especializadas como Apache ECharts para gráficos interactivos. Estas tecnologías permiten crear experiencias altamente responsivas que mantienen su rendimiento incluso con grandes volúmenes de datos y múltiples usuarios concurrentes.
             br
             br
-            |Los casos de uso empresariales han expandido significativamente el alcance de los dashboards. En finanzas, los dashboards de rendimiento financiero integran datos de múltiples fuentes para proporcionar visiones en tiempo real de métricas críticas como flujo de caja, márgenes y proyecciones. En operaciones, los dashboards de control de producción permiten el monitoreo en tiempo real de eficiencia, calidad y mantenimiento predictivo. El sector retail utiliza dashboards de análisis de ventas que combinan datos de transacciones, inventario y comportamiento del consumidor para optimizar operaciones y estrategias de marketing.
+            |Los casos de uso empresariales han expandido significativamente el alcance de los #[em dashboards]. En finanzas, los #[em dashboards] de rendimiento financiero integran datos de múltiples fuentes para proporcionar visiones en tiempo real de métricas críticas como flujo de caja, márgenes y proyecciones. En operaciones, los #[em dashboards] de control de producción permiten el monitoreo en tiempo real de eficiencia, calidad y mantenimiento predictivo. El sector #[em retail] utiliza #[em dashboards] de análisis de ventas que combinan datos de transacciones, inventario y comportamiento del consumidor para optimizar operaciones y estrategias de #[em marketing.]
       .col-lg-3.col-6: img(src='@/assets/curso/temas/67.png', alt='')
     p.mb-4.fw-bold Los elementos críticos para el éxito de un dashboard moderno incluyen:
     .row.justify-content-center.mb-5
       .col-lg-10
         AcordionA.mb-5(tipo="a" clase-tarjeta="tarjeta tarjeta--azul")
           div(titulo="Arquitectura de datos robusta:")
-            p.mb-0 los sistemas ETL modernos como Apache Airflow o Databricks aseguran la integración continua de datos actualizados, mientras que las bases de datos columnares como ClickHouse o Apache Pinot optimizan el rendimiento de consultas analíticas. La implementación de cachés inteligentes y agregaciones pre-calculadas permite mantener tiempos de respuesta óptimos incluso con grandes volúmenes de datos.
+            p.mb-0 Los sistemas ETL modernos como Apache Airflow o Databricks aseguran la integración continua de datos actualizados, mientras que las bases de datos columnares como ClickHouse o Apache Pinot optimizan el rendimiento de consultas analíticas. La implementación de cachés inteligentes y agregaciones pre-calculadas permite mantener tiempos de respuesta óptimos incluso con grandes volúmenes de datos.
           div(titulo="Diseño centrado en el usuario: ")
-            p.mb-0 las mejores prácticas actuales enfatizan layouts adaptables que funcionan en múltiples dispositivos, desde pantallas de control hasta dispositivos móviles. La implementación de patrones de diseño como el “overview first, zoom and filter, then details on demand” de Shneiderman mejora significativamente la usabilidad.
+            p.mb-0 Las mejores prácticas actuales enfatizan #[em layouts] adaptables que funcionan en múltiples dispositivos, desde pantallas de control hasta dispositivos móviles. La implementación de patrones de diseño como el “overview first, zoom and filter, then details on demand” de Shneiderman mejora significativamente la usabilidad.
           div(titulo="Capacidades analíticas avanzadas: ")
-            p.mb-0 la integración de técnicas de análisis estadístico, machine learning y procesamiento de señales permite la detección automática de anomalías y la generación de alertas predictivas. Herramientas como Prophet para forecasting o bibliotecas de detección de anomalías como ADTK enriquecen las capacidades analíticas del dashboard.
+            p.mb-0 La integración de técnicas de análisis estadístico, #[em machine learning] y procesamiento de señales permite la detección automática de anomalías y la generación de alertas predictivas. Herramientas como Prophet para #[em forecasting] o bibliotecas de detección de anomalías como ADTK enriquecen las capacidades analíticas del #[em dashboard.]
           div(titulo="Colaboración: ")
-            p.mb-0 funcionalidades modernas como anotaciones compartidas, exportación de insights y programación automatizada de reportes facilitan la colaboración entre equipos y la comunicación efectiva de hallazgos.
+            p.mb-0 Funcionalidades modernas como anotaciones compartidas, exportación de #[em insights ] y programación automatizada de reportes facilitan la colaboración entre equipos y la comunicación efectiva de hallazgos.
     .row.justify-content-center
       .col-lg-4.col-7.mb-lg-0.mb-3: img(src='@/assets/curso/temas/68.png', alt='')
       .col-lg-8
         .p-4(style="background-color: #e2f4f9 ")
-          p.mb-0 La optimización del rendimiento en #[em dashboards] modernos requiere consideración especial de aspectos técnicos como el diseño de consultas eficientes, la implementación de estrategias de caching, y la optimización de recursos visuales. Herramientas de monitoreo como New Relic o Grafana permiten identificar y resolver cuellos de botella en el rendimiento.
+          p.mb-0 La optimización del rendimiento en #[em dashboards] modernos requiere consideración especial de aspectos técnicos como el diseño de consultas eficientes, la implementación de estrategias de #[em caching], y la optimización de recursos visuales. Herramientas de monitoreo como New Relic o Grafana permiten identificar y resolver cuellos de botella en el rendimiento.
             br
             br
             |La seguridad y el control de acceso representan aspectos críticos en la implementación de #[em dashboards] empresariales. La integración con sistemas de autenticación empresarial (SSO), la implementación de controles de acceso basados en roles (RBAC), y el registro detallado de actividades aseguran que la información sensible permanezca protegida mientras se mantiene accesible para los usuarios autorizados.
             br
             br
-            |La tendencia hacia #[em dashboards] más inteligentes y automatizados continúa evolucionando, con la incorporación de capacidades de procesamiento de lenguaje natural para consultas conversacionales, integración de asistentes virtuales para la exploración de datos, y la automatización de insights mediante técnicas de inteligencia artificial. Estas innovaciones están redefiniendo la interacción entre usuarios y datos empresariales, facilitando un acceso más intuitivo y efectivo a la información crítica para la toma de decisiones.
+            |La tendencia hacia #[em dashboards] más inteligentes y automatizados continúa evolucionando, con la incorporación de capacidades de procesamiento de lenguaje natural para consultas conversacionales, integración de asistentes virtuales para la exploración de datos, y la automatización de #[em insights ] mediante técnicas de inteligencia artificial. Estas innovaciones están redefiniendo la interacción entre usuarios y datos empresariales, facilitando un acceso más intuitivo y efectivo a la información crítica para la toma de decisiones.
     Separador
     #t_3_4.titulo-segundo.color-acento-contenido(data-aos='fade-right')
       h2 3.4	Narración con datos  
@@ -165,18 +165,18 @@
         p.mb-0 La narración con datos representa una disciplina especializada que combina principios de diseño visual, estructura narrativa y psicología cognitiva para crear presentaciones efectivas de información cuantitativa. Este enfoque se centra en la construcción sistemática de narrativas que transforman datos complejos en historias coherentes y memorables.
           br
           br
-          |La estructura narrativa en la visualización de datos requiere una planificación cuidadosa que incluye el establecimiento del contexto, el desarrollo de la tensión narrativa y la revelación progresiva de insights. Estas técnicas narrativas deben adaptarse al tipo de datos, la complejidad del análisis y los objetivos de comunicación específicos.
+          |La estructura narrativa en la visualización de datos requiere una planificación cuidadosa que incluye el establecimiento del contexto, el desarrollo de la tensión narrativa y la revelación progresiva de #[em insights ]. Estas técnicas narrativas deben adaptarse al tipo de datos, la complejidad del análisis y los objetivos de comunicación específicos.
           br
           br
-          |Los elementos estructurales del data storytelling incluyen la creación de un arco narrativo claro, el uso efectivo de analogías y metáforas visuales, y la integración coherente de elementos cuantitativos y cualitativos. La selección y secuenciación de visualizaciones debe responder a esta estructura narrativa, construyendo gradualmente la comprensión de la audiencia.
+          |Los elementos estructurales del data #[em storytelling] incluyen la creación de un arco narrativo claro, el uso efectivo de analogías y metáforas visuales, y la integración coherente de elementos cuantitativos y cualitativos. La selección y secuenciación de visualizaciones debe responder a esta estructura narrativa, construyendo gradualmente la comprensión de la audiencia.
       .col-lg-4.col-7: img(src='@/assets/curso/temas/74.svg', alt='')
     .tarjeta.p-4.mb-5(style="background-color: #f3f0ea ")
-      p.mb-0 La implementación de técnicas de storytelling visual requiere considerar aspectos como el ritmo de la presentación, los puntos de énfasis visual y los momentos de revelación de información clave. La integración efectiva de estos elementos crea una experiencia narrativa que mantiene el interés de la audiencia mientras comunica información compleja de manera accesible. 
+      p.mb-0 La implementación de técnicas de #[em storytelling] visual requiere considerar aspectos como el ritmo de la presentación, los puntos de énfasis visual y los momentos de revelación de información clave. La integración efectiva de estos elementos crea una experiencia narrativa que mantiene el interés de la audiencia mientras comunica información compleja de manera accesible. 
     .row.justify-content-center.mb-5
         .col-lg-8
           .titulo-sexto.color-acento-contenido(data-aos='fade-right')
             h5 Figura 2.
-            span  Proceso iterativo para un data storytelling efectivo
+            span  Proceso iterativo para un #[em data storytelling] efectivo
           img.mb-4(src='@/assets/curso/temas/75.svg', alt='la Figura 2, titulada «Proceso iterativo para un data storytelling efectivo», ilustra un proceso en cuatro etapas para desarrollar y comunicar historias de datos de manera impactante y comprensible. la primera etapa, identificación de contexto y audiencia, se centra en comprender el entorno y las necesidades de quienes recibirán el mensaje. la segunda etapa, estructuración de la narrativa, consiste en organizar la historia de los datos para que siga un flujo claro y lógico. la tercera, diseño visual del mensaje, implica seleccionar visualizaciones y elementos gráficos que refuercen la claridad y atractivo de la información. la última etapa, entrega y retroalimentación, asegura que el mensaje se transmita adecuadamente y permite ajustar y mejorar la narrativa en función de los comentarios recibidos. este proceso iterativo facilita la creación de historias de datos claras, atractivas y alineadas con los intereses de la audiencia.')
           figcaption Fuente: OIT, 2024.
 

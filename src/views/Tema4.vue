@@ -28,10 +28,10 @@
       .row.justify-content-center.align-items-center.mb-5
         .col-lg-2.col-5.mb-lg-0.mb-3: img(src='@/assets/curso/temas/77.svg', alt='')
         .col-lg-10
-          p.mb-0 La priorización y validación de insights representa una fase crítica que requiere la evaluación sistemática de cada hallazgo en términos de su accionabilidad, impacto potencial y viabilidad de implementación. Este proceso debe considerar factores como los recursos disponibles, las restricciones operativas y el contexto específico en el que se aplicarán las recomendaciones derivadas.
+          p.mb-0 La priorización y validación de #[em insights] representa una fase crítica que requiere la evaluación sistemática de cada hallazgo en términos de su accionabilidad, impacto potencial y viabilidad de implementación. Este proceso debe considerar factores como los recursos disponibles, las restricciones operativas y el contexto específico en el que se aplicarán las recomendaciones derivadas.
             br
             br
-            |La documentación y comunicación efectiva de #[em insights] debe estructurarse de manera que facilite su comprensión y adopción por parte de los stakeholders relevantes. Esto incluye la articulación clara de las implicaciones prácticas, los beneficios potenciales y los riesgos asociados, respaldados por evidencia cuantitativa y cualitativa derivada del análisis.
+            |La documentación y comunicación efectiva de #[em insights] debe estructurarse de manera que facilite su comprensión y adopción por parte de los #[em stakeholders] relevantes. Esto incluye la articulación clara de las implicaciones prácticas, los beneficios potenciales y los riesgos asociados, respaldados por evidencia cuantitativa y cualitativa derivada del análisis.
     Separador
     #t_4_2.titulo-segundo.color-acento-contenido(data-aos='fade-right')
       h2 4.2	Validación de hipótesis con datos
@@ -44,7 +44,7 @@
           |La formulación adecuada de hipótesis representa el primer paso crítico en el proceso de validación. Las hipótesis deben ser específicas, medibles y falsables, permitiendo una evaluación objetiva mediante datos. El proceso de formulación debe considerar tanto el conocimiento del dominio como los insights preliminares derivados del análisis exploratorio, estableciendo un puente entre la teoría y la evidencia empírica.
           br
           br
-          | Las técnicas de validación estadística tradicionales, como las pruebas de hipótesis y los intervalos de confianza, proporcionan un fundamento riguroso para la evaluación de relaciones y patrones en los datos. Sin embargo, estas deben complementarse con métodos modernos de validación cruzada y remuestreo que permiten evaluar la robustez y generalización de los hallazgos. Técnicas como el bootstrapping y la validación cruzada k-fold relucen como herramientas fundamentales para estimar la variabilidad y confiabilidad de los resultados.
+          | Las técnicas de validación estadística tradicionales, como las pruebas de hipótesis y los intervalos de confianza, proporcionan un fundamento riguroso para la evaluación de relaciones y patrones en los datos. Sin embargo, estas deben complementarse con métodos modernos de validación cruzada y remuestreo que permiten evaluar la robustez y generalización de los hallazgos. Técnicas como el #[em bootstrapping] y la validación cruzada k-fold relucen como herramientas fundamentales para estimar la variabilidad y confiabilidad de los resultados.
           br
           br
           | La consideración de sesgos potenciales debe vigilarse en el proceso de validación. Estos pueden originarse en múltiples fuentes, incluyendo el diseño del estudio, la recolección de datos, y los métodos de análisis empleados. El sesgo de selección, el sesgo de supervivencia, y el sesgo de confirmación representan amenazas particulares que deben identificarse y mitigarse activamente durante el proceso de validación.
@@ -92,7 +92,7 @@
       .col-lg-4.col-7.mb-lg-0.mb-3: img(src='@/assets/curso/temas/83.png', alt='')
       .col-lg-5.mb-lg-0.mb-3
         .p-4(style="background-color: #d7eed6")
-          p.mb-0 El marco de gobernanza para la implementación debe establecer claramente roles, responsabilidades y procesos de decisión. La definición de estructuras de accountability y mecanismos de escalamiento asegura una ejecución coordinada y efectiva. La documentación clara de procesos y decisiones facilita la consistencia en la implementación y proporciona una base para la mejora continua.
+          p.mb-0 El marco de gobernanza para la implementación debe establecer claramente roles, responsabilidades y procesos de decisión. La definición de estructuras de #[em accountability] y mecanismos de escalamiento asegura una ejecución coordinada y efectiva. La documentación clara de procesos y decisiones facilita la consistencia en la implementación y proporciona una base para la mejora continua.
       .col-lg-3.col-7: img(src='@/assets/curso/temas/84.png', alt='')
     p.mb-5(data-aos='fade-right') La adaptabilidad de las recomendaciones a cambios en el contexto operativo es necesaria para su efectividad a largo plazo. Los mecanismos de revisión periódica y ajuste permiten mantener la relevancia y efectividad de las recomendaciones frente a condiciones cambiantes. La flexibilidad en la implementación, balanceada con la consistencia en los objetivos fundamentales, asegura la sostenibilidad del impacto.
 
